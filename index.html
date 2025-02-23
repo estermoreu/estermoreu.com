@@ -6,11 +6,26 @@
 -->
 <html>
 	<head>
-		<title>Ester Moreu Filella | Design Portfolio</title>
+		<title>Ester Moreu</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.hover-thumb {
+				position: relative;
+			}
+			.hover-thumb img:nth-child(2) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				opacity: 0;
+				transition: opacity 0.3s;
+			}
+			.hover-thumb:hover img:nth-child(2) {
+				opacity: 1;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -30,22 +45,20 @@
 				<!-- Main -->
 					<div id="main">
 						<article class="thumb">
-							<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" /></a>
-							<h2 style="color: white; text-transform: uppercase;">HEYDAY</h2>
-							<p><strong>Hey day</strong> es una marca de alimentos saludables para desayunar, y empezar el día con energía y positivismo. Producen cereales, muesli y granola, de distintas variedades y formatos.</p>
+							<a href="images/fulls/01.jpg" class="image">
+								<img src="images/thumbs/01.jpg" alt="" />
+							</a>
+							<a href="images/fulls/01_2.jpg" class="image" style="display: none;"></a>
+							<h2 style="color: white; text-transform: uppercase;">HEY DAY</h2>
+							<p>HEY DAY es una marca de alimentos saludables para desayunar, y empezar el día con energía y positivismo. HEY DAY tiene una gama de cereales, muesli y granola, de distintas variedades y formatos. El icono de la marca es el personaje HEY MAN, que trasmite los valores de la marca: energía, positivismo y una vida activa.</p>
 						</article>
 						<article class="thumb">
-							<a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt="" /></a>
+							<a href="images/fulls/02.jpg" class="image">
+								<img src="images/thumbs/02.jpg" alt="" />
+							</a>
+							<a href="images/fulls/02_2.jpg" class="image" style="display: none;"></a>
 							<h2 style="color: white; text-transform: uppercase;">OLÍVERA - OLIVE OIL</h2>
-							<p><strong>Olívera</strong> es un aceite de oliva virgen extra arraigado al territorio del Vallès (Catalunya), comprometido la tradición, sostenibildad, el respeto por el entorno y la reforestación del territorio. Es un aceite ideal para compartir momentos especiales, en cada experiencia culinaria, con amigos o familia.
-							</p>
-						</article>
-						<article class="thumb">
-							<a href="images/fulls/03.jpg" class="image"><img src="images/thumbs/03.jpg" alt="" /></a>
-							<h2 style="color: white; text-transform: uppercase;">OLÍVERA - BODY CREAM</h2>
-							<p><strong>Olívera</strong> es un aceite de oliva virgen extra arraigado al territorio del Vallès (Catalunya), comprometido la tradición, sostenibildad, el respeto por el entorno y la reforestación del territorio. Es un aceite ideal para compartir momentos especiales, en cada experiencia culinaria, con amigos o familia.
-								<strong>Olívera</strong> aprovecha los residuos de las olivas de la producción del aceite para elaborar también su propio producto cosmético, una crema hidratante corporal.
-							</p>
+							<p>"Olívera" es un aceite de oliva virgen extra arraigado al territorio del Vallès (Catalunya), comprometido la tradición, sostenibildad, el respeto por el entorno y la reforestación del territorio. Es un aceite ideal para compartir momentos especiales, en cada experiencia culinaria, con amigos o familia.</p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt="" /></a>
@@ -109,7 +122,7 @@
 									</ul>
 								</section>
 								<div id="copyright">
-									<ul><li>&copy; Ester Moreu 2025</li><li>Design: HTML5 UP</li></ul>
+									<ul class="copyright" style="list-style: none; padding-left: 0;">&copy; Ester Moreu 2025 | Design: HTML5 UP</ul>
 								</div>
 							</div>
 						</div>
